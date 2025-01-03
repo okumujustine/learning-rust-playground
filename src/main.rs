@@ -1,7 +1,7 @@
 mod functions;
 
+use functions::add::{add_10, add_five};
 use functions::minus::subtract_10;
-use functions::add::{ add_five, add_10};
 
 // everything in rust is immutable by default
 fn main() {

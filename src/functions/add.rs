@@ -16,7 +16,7 @@ mod test {
     }
 
     #[test]
-    fn test_add_10 () {
+    fn test_add_10() {
         assert_eq!(add_10(11), 21);
     }
 }
